@@ -1,0 +1,72 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html {
+
+}
+
+p {
+    margin: 0;
+}
+body {
+    background-color: cadetblue;
+}
+
+.questionBox {
+   background-color: royalblue; 
+}
+
+.currentQuestion {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.currentQuestion, .answer {
+    background-color: black;
+    color: wheat;
+}
+
+.answer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30%;
+}
+
+.points {
+    display: flex;
+    justify-content: space-around;
+}
+
+.point {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.pointsCurrent {
+    background-color: gray;
+    color: white;
+}
+
+.pointsRed {
+    background-color: red;
+    color: white;
+}
+
+.pointsBlue {
+    background-color: blue;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}

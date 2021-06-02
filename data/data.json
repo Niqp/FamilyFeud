@@ -1,0 +1,555 @@
+{
+    "questionList": [
+        {
+            "Question": "Name a gripe a woman might have about her computer that she might also have about her man.",
+            "Answers": [
+                {
+                    "Answer": "TOO SLOW",
+                    "Points": "68"
+                },
+                {
+                    "Answer": "DOESN'T WORK/CRASHES",
+                    "Points": "20"
+                },
+                {
+                    "Answer": "WON'T FOLLOW COMMAND",
+                    "Points": "4"
+                },
+                {
+                    "Answer": "GOES TO SLEEP",
+                    "Points": "2"
+                },
+                {
+                    "Answer": "LOW/NO MEMORY",
+                    "Points": "2"
+                },
+                {
+                    "Answer": "CONFUSING/COMPLEX",
+                    "Points": "2"
+                }
+            ]
+        },
+        {
+            "Question": "Name something your wife asks you to choose and when you do, it's the wrong choice.",
+            "Answers": [
+                {
+                    "Answer": "RESTAURANT/MEAL",
+                    "Points": "40"
+                },
+                {
+                    "Answer": "CLOTHES/HER OUTFIT",
+                    "Points": "25"
+                },
+                {
+                    "Answer": "A GIFT FOR HER",
+                    "Points": "13"
+                },
+                {
+                    "Answer": "MOVIE/TV SHOW",
+                    "Points": "12"
+                },
+                {
+                    "Answer": "HOME DECOR/PAINT",
+                    "Points": "6"
+                },
+                {
+                    "Answer": "ANOTHER BABE",
+                    "Points": "2"
+                }
+            ]
+        },
+        {
+            "Question": "Name someone who might be holding a whip.",
+            "Answers": [
+                {
+                    "Answer": "ANIMAL TRAINER",
+                    "Points": "56"
+                },
+                {
+                    "Answer": "DOMINATRIX",
+                    "Points": "16"
+                },
+                {
+                    "Answer": "COWBOY/RANCHER",
+                    "Points": "12"
+                },
+                {
+                    "Answer": "JOCKEY",
+                    "Points": "9"
+                },
+                {
+                    "Answer": "INDIANA JONES",
+                    "Points": "2"
+                },
+                {
+                    "Answer": "COACH/BUGGY DRIVER",
+                    "Points": "2"
+                }
+            ]
+        },
+        {
+            "Question": "Name An Occupation That Would Never drive A Small Car.",
+            "Answers": [
+                {
+                    "Answer": "Bus Driver",
+                    "Points": "35"
+                },
+                {
+                    "Answer": "Trucker",
+                    "Points": "34"
+                },
+                {
+                    "Answer": "Limo Driver",
+                    "Points": "13"
+                },
+                {
+                    "Answer": "Fireman",
+                    "Points": "5"
+                },
+                {
+                    "Answer": "Postal delivery",
+                    "Points": "4"
+                },
+                {
+                    "Answer": "Construction Worker",
+                    "Points": "3"
+                }
+            ]
+        },
+        {
+            "Question": "Name An Instance When You Fake A Smile",
+            "Answers": [
+                {
+                    "Answer": "Having A Photo Taken",
+                    "Points": "34"
+                },
+                {
+                    "Answer": "Hear A Bad Joke",
+                    "Points": "18"
+                },
+                {
+                    "Answer": "Job Interview",
+                    "Points": "13"
+                },
+                {
+                    "Answer": "Upset",
+                    "Points": "12"
+                },
+                {
+                    "Answer": "Meeting New People",
+                    "Points": "12"
+                },
+                {
+                    "Answer": "Nervous",
+                    "Points": "4"
+                }
+            ]
+        },
+        {
+            "Question": "Name A Job Where It Would Be Okay To Yell At Work",
+            "Answers": [
+                {
+                    "Answer": "construction",
+                    "Points": "43"
+                },
+                {
+                    "Answer": "Sports",
+                    "Points": "31"
+                },
+                {
+                    "Answer": "Teacher",
+                    "Points": "8"
+                },
+                {
+                    "Answer": "Police",
+                    "Points": "6"
+                },
+                {
+                    "Answer": "Stock Broker",
+                    "Points": "5"
+                },
+                {
+                    "Answer": "Auctioneer",
+                    "Points": "4"
+                }
+            ]
+        },
+        {
+            "Question": "Besides The Blade, Name Something You’d Find On A Swiss Army Knife",
+            "Answers": [
+                {
+                    "Answer": "Corkscrew",
+                    "Points": "22"
+                },
+                {
+                    "Answer": "Screw Driver",
+                    "Points": "14"
+                },
+                {
+                    "Answer": "Scissors",
+                    "Points": "13"
+                },
+                {
+                    "Answer": "Can Opener",
+                    "Points": "11"
+                },
+                {
+                    "Answer": "Bottle Opener",
+                    "Points": "7"
+                },
+                {
+                    "Answer": "Nail File",
+                    "Points": "5"
+                }
+            ]
+        },
+        {
+            "Question": "At which Type Of Place Would You Be Surprised To See A Neon Sign Hanging In The Window",
+            "Answers": [
+                {
+                    "Answer": "Place Of Worship",
+                    "Points": "54"
+                },
+                {
+                    "Answer": "My House",
+                    "Points": "27"
+                },
+                {
+                    "Answer": "Hospital",
+                    "Points": "6"
+                },
+                {
+                    "Answer": "Dentist’s Office",
+                    "Points": "3"
+                },
+                {
+                    "Answer": "Library",
+                    "Points": "3"
+                },
+                {
+                    "Answer": "School",
+                    "Points": "3"
+                }
+            ]
+        },
+        {
+            "Question": "Name An Employee You’d Find At A Fancy Hotel, But Not At A Budget Motel",
+            "Answers": [
+                {
+                    "Answer": "Concierge",
+                    "Points": "32"
+                },
+                {
+                    "Answer": "Bellhop",
+                    "Points": "22"
+                },
+                {
+                    "Answer": "Valet",
+                    "Points": "17"
+                },
+                {
+                    "Answer": "Doorperson",
+                    "Points": "12"
+                },
+                {
+                    "Answer": "Room Service",
+                    "Points": "8"
+                },
+                {
+                    "Answer": "Chef",
+                    "Points": "6"
+                }
+            ]
+        },
+        {
+            "Question": "In The Store, Name A Product That You Might Choose Because It’s Soft",
+            "Answers": [
+                {
+                    "Answer": "TOILET PAPER",
+                    "Points": "35"
+                },
+                {
+                    "Answer": "BREAD",
+                    "Points": "23"
+                },
+                {
+                    "Answer": "PILLOW",
+                    "Points": "17"
+                },
+                {
+                    "Answer": "BLANKET",
+                    "Points": "14"
+                },
+                {
+                    "Answer": "TOWEL",
+                    "Points": "4"
+                },
+                {
+                    "Answer": "SHIRT",
+                    "Points": "3"
+                }
+            ]
+        },
+        {
+            "Question": "Name Something A Person With Extra Long Arms Would Be Good At",
+            "Answers": [
+                {
+                    "Answer": "Sports",
+                    "Points": "51"
+                },
+                {
+                    "Answer": "Reaching",
+                    "Points": "26"
+                },
+                {
+                    "Answer": "Hugging",
+                    "Points": "6"
+                },
+                {
+                    "Answer": "Rock Climbing",
+                    "Points": "6"
+                },
+                {
+                    "Answer": "Paint Ceilings",
+                    "Points": "5"
+                },
+                {
+                    "Answer": "Change Lightbulbs",
+                    "Points": "3"
+                }
+            ]
+        },
+        {
+            "Question": "Name Something That Probably Drops In Sales In The Winter.",
+            "Answers": [
+                {
+                    "Answer": "Swimsuit",
+                    "Points": "35"
+                },
+                {
+                    "Answer": "Summer Clothing",
+                    "Points": "18"
+                },
+                {
+                    "Answer": "Pool Equipment",
+                    "Points": "16"
+                },
+                {
+                    "Answer": "Lawn Care",
+                    "Points": "13"
+                },
+                {
+                    "Answer": "Ice Cream",
+                    "Points": "6"
+                },
+                {
+                    "Answer": "Air Conditioner",
+                    "Points": "5"
+                }
+            ]
+        },
+        {
+            "Question": "Name An Occupation In Which One Spends His Day Cutting.",
+            "Answers": [
+                {
+                    "Answer": "Barber",
+                    "Points": "41"
+                },
+                {
+                    "Answer": "Butcher",
+                    "Points": "26"
+                },
+                {
+                    "Answer": "Gardener",
+                    "Points": "13"
+                },
+                {
+                    "Answer": "Tailor",
+                    "Points": "9"
+                },
+                {
+                    "Answer": "Lumberjack",
+                    "Points": "5"
+                },
+                {
+                    "Answer": "Carpenter",
+                    "Points": "3"
+                }
+            ]
+        },
+        {
+            "Question": "Name Something Babies And Puppies Have In Common.",
+            "Answers": [
+                {
+                    "Answer": "Cute",
+                    "Points": "34"
+                },
+                {
+                    "Answer": "Drooling",
+                    "Points": "17"
+                },
+                {
+                    "Answer": "Need Attention",
+                    "Points": "13"
+                },
+                {
+                    "Answer": "Playful",
+                    "Points": "9"
+                },
+                {
+                    "Answer": "Sleep Alot",
+                    "Points": "8"
+                },
+                {
+                    "Answer": "Cry",
+                    "Points": "8"
+                }
+            ]
+        },
+        {
+            "Question": "Name A Job That A Clumsy Person Would Be Fired From Immediately.",
+            "Answers": [
+                {
+                    "Answer": "Food Server",
+                    "Points": "35"
+                },
+                {
+                    "Answer": "Surgeon",
+                    "Points": "28"
+                },
+                {
+                    "Answer": "Construction Worker",
+                    "Points": "10"
+                },
+                {
+                    "Answer": "Dancer",
+                    "Points": "6"
+                },
+                {
+                    "Answer": "Acrobat",
+                    "Points": "5"
+                },
+                {
+                    "Answer": "Bartender",
+                    "Points": "5"
+                }
+            ]
+        },
+        {
+            "Question": "Name A Pubic Place Where You Take Off Your Shoes.",
+            "Answers": [
+                {
+                    "Answer": "Beach/Park",
+                    "Points": "35"
+                },
+                {
+                    "Answer": "Pool",
+                    "Points": "24"
+                },
+                {
+                    "Answer": "Shoe Store",
+                    "Points": "15"
+                },
+                {
+                    "Answer": "Gym",
+                    "Points": "11"
+                },
+                {
+                    "Answer": "Place Of Worship",
+                    "Points": "6"
+                },
+                {
+                    "Answer": "Bowling alley",
+                    "Points": "4"
+                }
+            ]
+        },
+        {
+            "Question": "Name Something Models And Wrestlers Both Do.",
+            "Answers": [
+                {
+                    "Answer": "Pose",
+                    "Points": "35"
+                },
+                {
+                    "Answer": "Work Out",
+                    "Points": "30"
+                },
+                {
+                    "Answer": "Act",
+                    "Points": "13"
+                },
+                {
+                    "Answer": "Dress Up",
+                    "Points": "8"
+                },
+                {
+                    "Answer": "Fight",
+                    "Points": "7"
+                },
+                {
+                    "Answer": "Strut",
+                    "Points": "4"
+                }
+            ]
+        },
+        {
+            "Question": "Компания, на логотипе которой есть животное",
+            "Answers": [
+                {
+                    "Answer": "Puma",
+                    "Points": "20"
+                },
+                {
+                    "Answer": "Jaguar",
+                    "Points": "17"
+                },
+                {
+                    "Answer": "Twitter",
+                    "Points": "15"
+                },
+                {
+                    "Answer": "Energizer",
+                    "Points": "13"
+                },
+                {
+                    "Answer": "Lacoste",
+                    "Points": "11"
+                },
+                {
+                    "Answer": "Ferrari",
+                    "Points": "11"
+                }
+            ]
+        },
+        {
+            "Question": "Name a kind of boat that doesn’t have an engine.",
+            "Answers": [
+                {
+                    "Answer": "Sailboat",
+                    "Points": "32"
+                },
+                {
+                    "Answer": "Canoe",
+                    "Points": "30"
+                },
+                {
+                    "Answer": "Rowboat",
+                    "Points": "18"
+                },
+                {
+                    "Answer": "Paddleboat",
+                    "Points": "10"
+                },
+                {
+                    "Answer": "Raft",
+                    "Points": "3"
+                },
+                {
+                    "Answer": "Barge",
+                    "Points": "2"
+                }
+                ]
+            }
+        ]
+    }

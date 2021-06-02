@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="questionBox">
+        <div class="currentQuestion"><p>Вопрос</p></div>
+        <div class="answers">
+            <template id="answer-template">
+                <div class="answer">
+                    <div class="answerText"><p>Ответ</p></div>
+                    <div class="answerPoints"><p>Очки</p></div>
+                    <button class="answerButton"></button>
+                </div>
+            </template>
+        </div>
+        <div class="points">
+            <div class="point pointsRed"><p>0</p></div>
+            <div class="point pointsCurrent"><p>0</p></div>
+            <div class="point pointsBlue"><p>0</p></div>
+        </div>
+        <div class="buttons">
+            <button class="appendToRed">Зачислить красной команде</button>
+            <button class="nextQuestion">Следующий вопрос</button>
+            <button class="appendToBlue">Зачислить синей команде</button>
+        </div>
+    </section>
+</body>
+<script src="scripts/main.js"></script>
+</html>
