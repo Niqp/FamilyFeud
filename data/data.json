@@ -1,494 +1,494 @@
 {
     "questionList": [
         {
-            "Question": "Name a gripe a woman might have about her computer that she might also have about her man.",
+            "Question": "Чем женщина может быть недовольна и в компьютере, и в мужчине?",
             "Answers": [
                 {
-                    "Answer": "TOO SLOW",
+                    "Answer": "Тормозит",
                     "Points": "68"
                 },
                 {
-                    "Answer": "DOESN'T WORK/CRASHES",
+                    "Answer": "Не работает/Ломается",
                     "Points": "20"
                 },
                 {
-                    "Answer": "WON'T FOLLOW COMMAND",
+                    "Answer": "Не исполняет команды",
                     "Points": "4"
                 },
                 {
-                    "Answer": "GOES TO SLEEP",
+                    "Answer": "Сразу засыпает",
                     "Points": "2"
                 },
                 {
-                    "Answer": "LOW/NO MEMORY",
+                    "Answer": "Не хватает памяти",
                     "Points": "2"
                 },
                 {
-                    "Answer": "CONFUSING/COMPLEX",
+                    "Answer": "Сложно/Непонятно",
                     "Points": "2"
                 }
             ]
         },
         {
-            "Question": "Name something your wife asks you to choose and when you do, it's the wrong choice.",
+            "Question": "Что жена просит выбрать мужа, и он всегда выбирает не то?",
             "Answers": [
                 {
-                    "Answer": "RESTAURANT/MEAL",
+                    "Answer": "Ресторан, еда",
                     "Points": "40"
                 },
                 {
-                    "Answer": "CLOTHES/HER OUTFIT",
+                    "Answer": "Одежду, её наряд",
                     "Points": "25"
                 },
                 {
-                    "Answer": "A GIFT FOR HER",
+                    "Answer": "Подарок для неё",
                     "Points": "13"
                 },
                 {
-                    "Answer": "MOVIE/TV SHOW",
+                    "Answer": "Кино, сериал",
                     "Points": "12"
                 },
                 {
-                    "Answer": "HOME DECOR/PAINT",
+                    "Answer": "Домашний декор/цвет",
                     "Points": "6"
                 },
                 {
-                    "Answer": "ANOTHER BABE",
+                    "Answer": "Духи",
                     "Points": "2"
                 }
             ]
         },
         {
-            "Question": "Name someone who might be holding a whip.",
+            "Question": "Кто-то, кто может держать хлыст.",
             "Answers": [
                 {
-                    "Answer": "ANIMAL TRAINER",
+                    "Answer": "Дрессировщик",
                     "Points": "56"
                 },
                 {
-                    "Answer": "DOMINATRIX",
+                    "Answer": "Госпожа",
                     "Points": "16"
                 },
                 {
-                    "Answer": "COWBOY/RANCHER",
+                    "Answer": "Ковбой",
                     "Points": "12"
                 },
                 {
-                    "Answer": "JOCKEY",
+                    "Answer": "Жокей",
                     "Points": "9"
                 },
                 {
-                    "Answer": "INDIANA JONES",
+                    "Answer": "Индиана Джонс",
                     "Points": "2"
                 },
                 {
-                    "Answer": "COACH/BUGGY DRIVER",
+                    "Answer": "Кучер",
                     "Points": "2"
                 }
             ]
         },
         {
-            "Question": "Name An Occupation That Would Never drive A Small Car.",
+            "Question": "На какой работе никогда не водят маленькую машину?",
             "Answers": [
                 {
-                    "Answer": "Bus Driver",
+                    "Answer": "Водитель автобуса",
                     "Points": "35"
                 },
                 {
-                    "Answer": "Trucker",
+                    "Answer": "Дальнобойщик",
                     "Points": "34"
                 },
                 {
-                    "Answer": "Limo Driver",
+                    "Answer": "Водитель лимузина",
                     "Points": "13"
                 },
                 {
-                    "Answer": "Fireman",
+                    "Answer": "Пожарный",
                     "Points": "5"
                 },
                 {
-                    "Answer": "Postal delivery",
+                    "Answer": "Водитель скорой",
                     "Points": "4"
                 },
                 {
-                    "Answer": "Construction Worker",
+                    "Answer": "Строитель",
                     "Points": "3"
                 }
             ]
         },
         {
-            "Question": "Name An Instance When You Fake A Smile",
+            "Question": "В каких случаях поддельно улыбаются?",
             "Answers": [
                 {
-                    "Answer": "Having A Photo Taken",
+                    "Answer": "Для фотографии",
                     "Points": "34"
                 },
                 {
-                    "Answer": "Hear A Bad Joke",
+                    "Answer": "Плохая шутка",
                     "Points": "18"
                 },
                 {
-                    "Answer": "Job Interview",
+                    "Answer": "Собеседование на работу",
                     "Points": "13"
                 },
                 {
-                    "Answer": "Upset",
+                    "Answer": "Расстроен",
                     "Points": "12"
                 },
                 {
-                    "Answer": "Meeting New People",
+                    "Answer": "Встречаешь новых людей",
                     "Points": "12"
                 },
                 {
-                    "Answer": "Nervous",
+                    "Answer": "Нервничаешь",
                     "Points": "4"
                 }
             ]
         },
         {
-            "Question": "Name A Job Where It Would Be Okay To Yell At Work",
+            "Question": "Работа, на которой часто кричат.",
             "Answers": [
                 {
-                    "Answer": "construction",
+                    "Answer": "Строитель",
                     "Points": "43"
                 },
                 {
-                    "Answer": "Sports",
+                    "Answer": "Спортсмен",
                     "Points": "31"
                 },
                 {
-                    "Answer": "Teacher",
+                    "Answer": "Учитель",
                     "Points": "8"
                 },
                 {
-                    "Answer": "Police",
+                    "Answer": "Полицейский",
                     "Points": "6"
                 },
                 {
-                    "Answer": "Stock Broker",
+                    "Answer": "Брокер",
                     "Points": "5"
                 },
                 {
-                    "Answer": "Auctioneer",
+                    "Answer": "Аукционист",
                     "Points": "4"
                 }
             ]
         },
         {
-            "Question": "Besides The Blade, Name Something You’d Find On A Swiss Army Knife",
+            "Question": "Что, кроме лезвия, бывает в швейцарском ноже?",
             "Answers": [
                 {
-                    "Answer": "Corkscrew",
+                    "Answer": "Штороп",
                     "Points": "22"
                 },
                 {
-                    "Answer": "Screw Driver",
+                    "Answer": "Отвертка",
                     "Points": "14"
                 },
                 {
-                    "Answer": "Scissors",
+                    "Answer": "Ножницы",
                     "Points": "13"
                 },
                 {
-                    "Answer": "Can Opener",
+                    "Answer": "Консервный нож",
                     "Points": "11"
                 },
                 {
-                    "Answer": "Bottle Opener",
+                    "Answer": "Открывашка",
                     "Points": "7"
                 },
                 {
-                    "Answer": "Nail File",
+                    "Answer": "Пилка для ногтей",
                     "Points": "5"
                 }
             ]
         },
         {
-            "Question": "At which Type Of Place Would You Be Surprised To See A Neon Sign Hanging In The Window",
+            "Question": "Над каким местом будет странно увидеть неоновую вывеску?",
             "Answers": [
                 {
-                    "Answer": "Place Of Worship",
+                    "Answer": "Храм",
                     "Points": "54"
                 },
                 {
-                    "Answer": "My House",
+                    "Answer": "Свой дом",
                     "Points": "27"
                 },
                 {
-                    "Answer": "Hospital",
+                    "Answer": "Больница",
                     "Points": "6"
                 },
                 {
-                    "Answer": "Dentist’s Office",
+                    "Answer": "Детский сад",
                     "Points": "3"
                 },
                 {
-                    "Answer": "Library",
+                    "Answer": "Библиотека",
                     "Points": "3"
                 },
                 {
-                    "Answer": "School",
+                    "Answer": "Школа",
                     "Points": "3"
                 }
             ]
         },
         {
-            "Question": "Name An Employee You’d Find At A Fancy Hotel, But Not At A Budget Motel",
+            "Question": "Сотрудник, который есть только в дорогом отеле.",
             "Answers": [
                 {
-                    "Answer": "Concierge",
+                    "Answer": "Консьерж",
                     "Points": "32"
                 },
                 {
-                    "Answer": "Bellhop",
+                    "Answer": "Коридорный",
                     "Points": "22"
                 },
                 {
-                    "Answer": "Valet",
+                    "Answer": "Камердинер",
                     "Points": "17"
                 },
                 {
-                    "Answer": "Doorperson",
+                    "Answer": "Швейцар",
                     "Points": "12"
                 },
                 {
-                    "Answer": "Room Service",
+                    "Answer": "Горничная",
                     "Points": "8"
                 },
                 {
-                    "Answer": "Chef",
+                    "Answer": "Шеф-повар",
                     "Points": "6"
                 }
             ]
         },
         {
-            "Question": "In The Store, Name A Product That You Might Choose Because It’s Soft",
+            "Question": "Какой товар в магазине выбирают по степени мягкости?",
             "Answers": [
                 {
-                    "Answer": "TOILET PAPER",
+                    "Answer": "Туалетная бумага",
                     "Points": "35"
                 },
                 {
-                    "Answer": "BREAD",
+                    "Answer": "Хлеб",
                     "Points": "23"
                 },
                 {
-                    "Answer": "PILLOW",
+                    "Answer": "Подушка",
                     "Points": "17"
                 },
                 {
-                    "Answer": "BLANKET",
+                    "Answer": "Одеяло",
                     "Points": "14"
                 },
                 {
-                    "Answer": "TOWEL",
+                    "Answer": "Полотенце",
                     "Points": "4"
                 },
                 {
-                    "Answer": "SHIRT",
+                    "Answer": "Футболка",
                     "Points": "3"
                 }
             ]
         },
         {
-            "Question": "Name Something A Person With Extra Long Arms Would Be Good At",
+            "Question": "В чём мог бы быть хорош человек с очень длинными руками?",
             "Answers": [
                 {
-                    "Answer": "Sports",
+                    "Answer": "Спорт",
                     "Points": "51"
                 },
                 {
-                    "Answer": "Reaching",
+                    "Answer": "Доставать до верхней полки",
                     "Points": "26"
                 },
                 {
-                    "Answer": "Hugging",
+                    "Answer": "Обниматься",
                     "Points": "6"
                 },
                 {
-                    "Answer": "Rock Climbing",
+                    "Answer": "Скалолазание",
                     "Points": "6"
                 },
                 {
-                    "Answer": "Paint Ceilings",
+                    "Answer": "Красить потолки",
                     "Points": "5"
                 },
                 {
-                    "Answer": "Change Lightbulbs",
+                    "Answer": "Менять лампочки",
                     "Points": "3"
                 }
             ]
         },
         {
-            "Question": "Name Something That Probably Drops In Sales In The Winter.",
+            "Question": "У чего падают продажи зимой?",
             "Answers": [
                 {
-                    "Answer": "Swimsuit",
+                    "Answer": "Купальники",
                     "Points": "35"
                 },
                 {
-                    "Answer": "Summer Clothing",
+                    "Answer": "Летняя одежда",
                     "Points": "18"
                 },
                 {
-                    "Answer": "Pool Equipment",
+                    "Answer": "Принадлежности для бассейна",
                     "Points": "16"
                 },
                 {
-                    "Answer": "Lawn Care",
+                    "Answer": "Газонокосилки",
                     "Points": "13"
                 },
                 {
-                    "Answer": "Ice Cream",
+                    "Answer": "Мороженное",
                     "Points": "6"
                 },
                 {
-                    "Answer": "Air Conditioner",
+                    "Answer": "Кондиционеры",
                     "Points": "5"
                 }
             ]
         },
         {
-            "Question": "Name An Occupation In Which One Spends His Day Cutting.",
+            "Question": "Работа, на которой постоянно надо что-то резать.",
             "Answers": [
                 {
-                    "Answer": "Barber",
+                    "Answer": "Парикмахер",
                     "Points": "41"
                 },
                 {
-                    "Answer": "Butcher",
+                    "Answer": "Мясник",
                     "Points": "26"
                 },
                 {
-                    "Answer": "Gardener",
+                    "Answer": "Садовник",
                     "Points": "13"
                 },
                 {
-                    "Answer": "Tailor",
+                    "Answer": "Портной",
                     "Points": "9"
                 },
                 {
-                    "Answer": "Lumberjack",
+                    "Answer": "Дровосек",
                     "Points": "5"
                 },
                 {
-                    "Answer": "Carpenter",
+                    "Answer": "Плотник",
                     "Points": "3"
                 }
             ]
         },
         {
-            "Question": "Name Something Babies And Puppies Have In Common.",
+            "Question": "Что-то общее между детьми и щеночками",
             "Answers": [
                 {
-                    "Answer": "Cute",
+                    "Answer": "Милые",
                     "Points": "34"
                 },
                 {
-                    "Answer": "Drooling",
+                    "Answer": "Пускают слюни",
                     "Points": "17"
                 },
                 {
-                    "Answer": "Need Attention",
+                    "Answer": "Нужно внимание",
                     "Points": "13"
                 },
                 {
-                    "Answer": "Playful",
+                    "Answer": "Игривые",
                     "Points": "9"
                 },
                 {
-                    "Answer": "Sleep Alot",
+                    "Answer": "Много спят",
                     "Points": "8"
                 },
                 {
-                    "Answer": "Cry",
+                    "Answer": "Плачут",
                     "Points": "8"
                 }
             ]
         },
         {
-            "Question": "Name A Job That A Clumsy Person Would Be Fired From Immediately.",
+            "Question": "Работа, с которой сразу уволят неуклюжего человека.",
             "Answers": [
                 {
-                    "Answer": "Food Server",
+                    "Answer": "Официант",
                     "Points": "35"
                 },
                 {
-                    "Answer": "Surgeon",
+                    "Answer": "Хирург",
                     "Points": "28"
                 },
                 {
-                    "Answer": "Construction Worker",
+                    "Answer": "Строитель",
                     "Points": "10"
                 },
                 {
-                    "Answer": "Dancer",
+                    "Answer": "Танцор",
                     "Points": "6"
                 },
                 {
-                    "Answer": "Acrobat",
+                    "Answer": "Акробат",
                     "Points": "5"
                 },
                 {
-                    "Answer": "Bartender",
+                    "Answer": "Бармен",
                     "Points": "5"
                 }
             ]
         },
         {
-            "Question": "Name A Pubic Place Where You Take Off Your Shoes.",
+            "Question": "Публичное место, где снимают обувь.",
             "Answers": [
                 {
-                    "Answer": "Beach/Park",
+                    "Answer": "Пляж",
                     "Points": "35"
                 },
                 {
-                    "Answer": "Pool",
+                    "Answer": "Бассейн",
                     "Points": "24"
                 },
                 {
-                    "Answer": "Shoe Store",
+                    "Answer": "Магазин обуви",
                     "Points": "15"
                 },
                 {
-                    "Answer": "Gym",
+                    "Answer": "Тренажерный зал",
                     "Points": "11"
                 },
                 {
-                    "Answer": "Place Of Worship",
+                    "Answer": "Каток",
                     "Points": "6"
                 },
                 {
-                    "Answer": "Bowling alley",
+                    "Answer": "Боулинг",
                     "Points": "4"
                 }
             ]
         },
         {
-            "Question": "Name Something Models And Wrestlers Both Do.",
+            "Question": "Что делают и модели, и рестлеры?",
             "Answers": [
                 {
-                    "Answer": "Pose",
+                    "Answer": "Позируют",
                     "Points": "35"
                 },
                 {
-                    "Answer": "Work Out",
+                    "Answer": "Тренируются",
                     "Points": "30"
                 },
                 {
-                    "Answer": "Act",
+                    "Answer": "Выступают",
                     "Points": "13"
                 },
                 {
-                    "Answer": "Dress Up",
+                    "Answer": "Наряжаются",
                     "Points": "8"
                 },
                 {
-                    "Answer": "Fight",
+                    "Answer": "Дерутся",
                     "Points": "7"
                 },
                 {
-                    "Answer": "Strut",
+                    "Answer": "Ходят с важным видом",
                     "Points": "4"
                 }
             ]
@@ -523,33 +523,302 @@
             ]
         },
         {
-            "Question": "Name a kind of boat that doesn’t have an engine.",
+            "Question": "Тип судна, у которого нету двигателя.",
             "Answers": [
                 {
-                    "Answer": "Sailboat",
+                    "Answer": "Парусник",
                     "Points": "32"
                 },
                 {
-                    "Answer": "Canoe",
+                    "Answer": "Каноэ/Каяк/Байдарка",
                     "Points": "30"
                 },
                 {
-                    "Answer": "Rowboat",
+                    "Answer": "Гребная лодка",
                     "Points": "18"
                 },
                 {
-                    "Answer": "Paddleboat",
+                    "Answer": "Катамаран",
                     "Points": "10"
                 },
                 {
-                    "Answer": "Raft",
+                    "Answer": "Плот",
                     "Points": "3"
                 },
                 {
-                    "Answer": "Barge",
+                    "Answer": "Баржа",
                     "Points": "2"
                 }
                 ]
-            }
-        ]
-    }
+            },
+            {
+                "Question": "Что люди ассоциируют с Альбертом Энштейном?",
+                "Answers": [
+                    {
+                        "Answer": "Интеллект",
+                        "Points": "32"
+                    },
+                    {
+                        "Answer": "Математика",
+                        "Points": "17"
+                    },
+                    {
+                        "Answer": "E=MC^2",
+                        "Points": "16"
+                    },
+                    {
+                        "Answer": "Теория относительности",
+                        "Points": "15"
+                    },
+                    {
+                        "Answer": "Физика",
+                        "Points": "8"
+                    },
+                    {
+                        "Answer": "Растрепанные волосы",
+                        "Points": "6"
+                    }
+                ]
+            },
+            {
+                "Question": "Назовите что-то, чего семь.",
+                "Answers": [
+                    {
+                        "Answer": "Гномов",
+                        "Points": "28"
+                    },
+                    {
+                        "Answer": "Нот",
+                        "Points": "23"
+                    },
+                    {
+                        "Answer": "Чудес света",
+                        "Points": "15"
+                    },
+                    {
+                        "Answer": "Дней в неделе",
+                        "Points": "14"
+                    },
+                    {
+                        "Answer": "Смертных грехов",
+                        "Points": "9"
+                    },
+                    {
+                        "Answer": "Цветов радуги",
+                        "Points": "5"
+                    }
+                ]
+            },
+            {
+                "Question": "Животное, которое живёт и на воде, и на суше.",
+                "Answers": [
+                    {
+                        "Answer": "Черепаха",
+                        "Points": "40"
+                    },
+                    {
+                        "Answer": "Крокодил",
+                        "Points": "16"
+                    },
+                    {
+                        "Answer": "Легущька",
+                        "Points": "12"
+                    },
+                    {
+                        "Answer": "Тюлень",
+                        "Points": "11"
+                    },
+                    {
+                        "Answer": "Пингвин",
+                        "Points": "10"
+                    },
+                    {
+                        "Answer": "Бобёр",
+                        "Points": "4"
+                    }
+                ]
+            },
+            {
+                "Question": "Что пациенту больницы сложно делать самому?",
+                "Answers": [
+                    {
+                        "Answer": "Пользоваться туалетом",
+                        "Points": "35"
+                    },
+                    {
+                        "Answer": "Ходить",
+                        "Points": "21"
+                    },
+                    {
+                        "Answer": "Мыться",
+                        "Points": "13"
+                    },
+                    {
+                        "Answer": "Вставать с кровати",
+                        "Points": "11"
+                    },
+                    {
+                        "Answer": "Есть",
+                        "Points": "10"
+                    },
+                    {
+                        "Answer": "Дышать",
+                        "Points": "4"
+                    }
+                ]
+            },
+            {
+                "Question": "Где нудист держит ключи от машины?",
+                "Answers": [
+                    {
+                        "Answer": "На шее",
+                        "Points": "35"
+                    },
+                    {
+                        "Answer": "В заднице",
+                        "Points": "17"
+                    },
+                    {
+                        "Answer": "В руке, на пальце",
+                        "Points": "16"
+                    },
+                    {
+                        "Answer": "В сумочке",
+                        "Points": "13"
+                    },
+                    {
+                        "Answer": "Браслет, запястье",
+                        "Points": "8"
+                    },
+                    {
+                        "Answer": "Во рту",
+                        "Points": "4"
+                    }
+                ]
+            },
+            {
+            "Question": "Назовите вид сувениров, на котором написано название города",
+            "Answers": [
+                {
+                    "Answer": "Магнит",
+                    "Points": "20"
+                },
+                {
+                    "Answer": "Брелок",
+                    "Points": "18"
+                },
+                {
+                    "Answer": "Кружка",
+                    "Points": "12"
+                },
+                {
+                    "Answer": "Футболка",
+                    "Points": "10"
+                },
+                {
+                    "Answer": "Тарелка",
+                    "Points": "6"
+                }
+            ]
+        },
+        {
+            "Question": "Какой транспорт услышишь ещё до того, как его станет видно?",
+            "Answers": [
+                {
+                    "Answer": "Поезд",
+                    "Points": "33"
+                },
+                {
+                    "Answer": "Мотоцикл",
+                    "Points": "29"
+                },
+                {
+                    "Answer": "Полицейская машина",
+                    "Points": "12"
+                },
+                {
+                    "Answer": "Автобус",
+                    "Points": "10"
+                },
+                {
+                    "Answer": "Скорая помощь",
+                    "Points": "6"
+                },
+                {
+                    "Answer": "Грузовик",
+                    "Points": "4"
+                },
+                {
+                    "Answer": "",
+                    "Points": "4"
+                }
+            ]
+        },
+        {
+            "Question": "Какой транспорт услышишь ещё до того, как его станет видно?",
+            "Answers": [
+                {
+                    "Answer": "Поезд",
+                    "Points": "33"
+                },
+                {
+                    "Answer": "Мотоцикл",
+                    "Points": "29"
+                },
+                {
+                    "Answer": "Полицейская машина",
+                    "Points": "12"
+                },
+                {
+                    "Answer": "Автобус",
+                    "Points": "10"
+                },
+                {
+                    "Answer": "Скорая помощь",
+                    "Points": "6"
+                },
+                {
+                    "Answer": "Грузовик",
+                    "Points": "4"
+                },
+                {
+                    "Answer": "",
+                    "Points": "4"
+                }
+            ]
+        },
+        {
+            "Question": "Работники какой профессии редко шутят?",
+            "Answers": [
+                {
+                    "Answer": "Адвокат",
+                    "Points": "31"
+                },
+                {
+                    "Answer": "Работник морга",
+                    "Points": "27"
+                },
+                {
+                    "Answer": "Политик",
+                    "Points": "19"
+                },
+                {
+                    "Answer": "Судья",
+                    "Points": "9"
+                },
+                {
+                    "Answer": "Учитель",
+                    "Points": "4"
+                },
+                {
+                    "Answer": "Полицейский",
+                    "Points": "4"
+                },
+                {
+                    "Answer": "Бухгалтер",
+                    "Points": "4"
+                }
+            ]
+        }
+    ]
+}

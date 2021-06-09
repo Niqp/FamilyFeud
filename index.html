@@ -9,13 +9,25 @@
 </head>
 <body>
     <section class="questionBox">
-        <div class="currentQuestion"><p>Вопрос</p></div>
+        <div class="currentQuestion"><p>💯 к 1</p></div>
         <div class="answers">
             <template id="answer-template">
                 <div class="answer">
                     <div class="answerText"><p>Ответ</p></div>
                     <div class="answerPoints"><p>Очки</p></div>
                     <button class="answerButton"></button>
+                </div>
+            </template>
+            <template id="fastMoney-template">
+                <div class="answer">
+                    <input type="text" class="fastMoneyAnswer"></input>
+                    <div class="timer"><p></p></div>
+                </div>
+            </template>
+            <template id="fastMoneyAnswers-template">
+                <div class="fastMoney">
+                    <div class="answerText"></div>
+                    <input type="password" class="fastMoneyPoints"></input>
                 </div>
             </template>
         </div>
@@ -26,7 +38,9 @@
         </div>
         <div class="buttons">
             <button class="appendToRed">Зачислить красной команде</button>
-            <button class="nextQuestion">Следующий вопрос</button>
+            <button class="nextQuestion hidden">Начать игру</button>
+            <button class="endGame hidden">Закончить игру</button>
+            <button class="fastMoneyNextQuestion hidden">ФАСТ МАНИ Следующий вопрос</button>
             <button class="appendToBlue">Зачислить синей команде</button>
         </div>
     </section>

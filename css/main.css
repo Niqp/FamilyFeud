@@ -20,9 +20,11 @@ body {
 .currentQuestion {
     text-align: center;
     padding-bottom: 15px;
+    background-color: black;
+    color: wheat;
 }
 
-.currentQuestion, .answer {
+.answers {
     background-color: black;
     color: wheat;
 }
@@ -69,4 +71,35 @@ body {
 .buttons {
     display: flex;
     justify-content: space-around;
+}
+
+.playersBlock {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.answerBlock {
+    display: flex;
+    padding: 5px 0;
+    justify-content: flex-end;
+}
+
+.fastMoney {
+    display: flex;
+}
+
+.answerText {
+    min-width: 100px;
+}
+
+.answerBlock input {
+    max-width: 30px;
+    margin: 0 50px;
+}
+
+.answerBlock button {
+    height: 20px;
+    margin-left: 10px;
 }
