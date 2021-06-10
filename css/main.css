@@ -71,6 +71,17 @@ body {
     box-shadow: 0 0 55px black;
 }
 
+.control button {
+    border: 0;
+    outline: 0;
+    height: 50%;
+}
+
+.control {
+    display:flex;
+    flex-direction: column;
+}
+
 .redColor {
     color: red;
 }
@@ -203,4 +214,34 @@ input:focus {
 .answerBlock button {
     margin-left: 10px;
     padding: 5px;
+}
+
+.tries {
+    display: flex;
+    flex-direction: column;
+    min-width: 130px;
+}
+
+.crosses {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: royalblue;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.crosses img {
+    max-width: 30px;
+    opacity: 0.5;
+}
+
+.firstPlayerDesignate {
+    display: flex;
+    flex-direction: column;
+}
+
+.currentColor {
+    height: 100%;
+    background-color: white;
 }

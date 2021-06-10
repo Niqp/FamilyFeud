@@ -34,13 +34,21 @@ const feudMachine = (questions) => {
   const APPEND_TO_BLUE = document.querySelector(".appendToBlue");
   const END_GAME = document.querySelector(".endGame");
 
+  const CROSSES = document.querySelectorAll('.cross');
+  const REMOVE_CROSS = document.querySelector('.removeCross');
+
+  const CURRENT_TEAM_COLOR = document.querySelector('.currentColor');
+  const DETERMINE_CURRENT_TEAM = document.querySelector('.determineTeam');
+  const WRONG_SOUND = new Audio(window.location.href + "/sound/wrong.mp3");
+
   let pointsBlueCounter = 0;
   let pointsRedCounter = 0;
   let pointsCurrentCounter = 0;
   let currentPlayer = 0;
   let newGame = true;
-
+  let crossDefaultCount = 3;
   let chosenTeam = 0;
+  let answerInput = 0;
 
   let normalQuestionCurrentCount = 0;
   let fastMoneyCurrentCount = 0;
@@ -57,6 +65,8 @@ const feudMachine = (questions) => {
   const getNormalQuestion = () => {
     let randomQuestion = getRandomQuestion();
     console.log(questionList.length);
+    crossDefaultCount = 3;
+    CROSSES.forEach((value) => value.style.opacity = 0.5);
     let questionSelected = questions.questionList[randomQuestion];
     CURRENT_QUESTION.textContent = questionSelected.Question;
     ANSWERS.textContent = "";
@@ -88,6 +98,7 @@ const feudMachine = (questions) => {
     pointsRedCounter>=pointsBlueCounter?chosenTeam=1:chosenTeam=2;
     currentPlayer=0;
     fastMoneyCurrentCount = 0;
+    CROSSES.forEach((value) => value.style.opacity = 1);
     console.log('Первой играет команда' + chosenTeam);
     const randomQuestionPool = new Array(FAST_MONEY_MAX).fill('').map(() => questions.questionList[getRandomQuestion()]);
     console.log(randomQuestionPool);
@@ -97,7 +108,7 @@ const feudMachine = (questions) => {
     FAST_MONEY_NEXT.classList.remove("hidden");
 
     let clonedTemplate = FAST_MONEY_TEMPLATE.cloneNode(true);
-    let answerInput = clonedTemplate.querySelector('.fastMoneyAnswer');
+    answerInput = clonedTemplate.querySelector('.fastMoneyAnswer');
     let timer = clonedTemplate.querySelector('.timer');
     let timerId = 0;
 
@@ -297,6 +308,33 @@ const feudMachine = (questions) => {
     POINTS_BLUE.textContent = pointsBlueCounter;
     pointsCurrentCounter = 0;
     POINTS_CURRENT.textContent = pointsCurrentCounter;
+  });
+
+  REMOVE_CROSS.addEventListener('click', () => {
+    crossDefaultCount--;
+    WRONG_SOUND.play();
+    if (answerInput) {
+      answerInput.focus();
+    }
+    if (crossDefaultCount>=0) {
+      CROSSES[crossDefaultCount].style.opacity = 1;
+    }
+  });
+
+  DETERMINE_CURRENT_TEAM.addEventListener('click', () => {
+    DETERMINE_CURRENT_TEAM.textContent="Определяю...";
+    CURRENT_TEAM_COLOR.style.backgroundColor = "white";
+    document.addEventListener('keydown',function listener(evt) {
+      DETERMINE_CURRENT_TEAM.blur();
+      if (evt.code === "ControlLeft") {
+        CURRENT_TEAM_COLOR.style.backgroundColor = "red";
+      }
+      if (evt.code === "NumpadEnter") {
+        CURRENT_TEAM_COLOR.style.backgroundColor = "blue";
+      }
+      document.removeEventListener('keydown',listener);
+      DETERMINE_CURRENT_TEAM.textContent="Отвечающая команда";
+    });
   });
 };
 
