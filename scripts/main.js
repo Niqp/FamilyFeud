@@ -120,23 +120,13 @@ const feudMachine = (questions) => {
         currentTimer--;
         timer.textContent = currentTimer;
         if (currentTimer === 0) {
-          clearInterval(timerId);
-          playerAnswers[currentPlayer].push(answerInput.value);
-          console.log("Получил " + answerInput.value);
-          console.log(playerAnswers);
-          fastMoneyCurrentCount++;
-          checkQuestion();
+          fastMoneyNext();
         }
       },1000);
 
       answerInput.addEventListener('keydown', (evt) => {
         if (evt.code === "Enter") {
-          clearInterval(timerId);
-          playerAnswers[currentPlayer].push(answerInput.value);
-          console.log("Получил " + answerInput.value);
-          console.log(playerAnswers);
-          fastMoneyCurrentCount++;
-          checkQuestion();
+          fastMoneyNext();
         }
       });
     };
@@ -205,7 +195,10 @@ const feudMachine = (questions) => {
           END_GAME.classList.remove("hidden");
           return;
         }
-        addNewQuestion();
+        ANSWERS.textContent = "";
+        CURRENT_QUESTION.textContent = "Отвечает следующая команда";
+        FAST_MONEY_NEXT.removeEventListener('click', fastMoneyNext);
+        FAST_MONEY_NEXT.addEventListener('click', nextPlayer);
       }
     };
     function fastMoneyNext() {
@@ -216,8 +209,14 @@ const feudMachine = (questions) => {
       fastMoneyCurrentCount++;
       checkQuestion(); 
     }
-    FAST_MONEY_NEXT.addEventListener('click', fastMoneyNext);
 
+    function nextPlayer() {
+      checkQuestion();
+      FAST_MONEY_NEXT.removeEventListener('click', nextPlayer);
+      FAST_MONEY_NEXT.addEventListener('click', fastMoneyNext);
+    }
+    
+    FAST_MONEY_NEXT.addEventListener('click', fastMoneyNext);
   }; 
 
   END_GAME.addEventListener("click", () => {

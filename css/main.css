@@ -10,58 +10,117 @@ p {
     margin: 0;
 }
 body {
-    background-color: cadetblue;
+    background-image: url("../img/pattern1.png");
+    background-size: 15px;
+}
+
+.gameField {
 }
 
 .questionBox {
-   background-color: royalblue; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: black;
+    color: wheat;
+    font-size: 35px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-bottom: 15px;
 }
+
+.questionBox button {
+    background-color: white;
+    border: 2px solid darkgoldenrod;
+    border-radius: 10px;
+    height: 30px;
+    box-shadow: inset 0 0 4px black;
+}
+
+.questionBox button:active {
+    background-color: grey;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgoldenrod;
+    background-image: url("../img/pattern2.png");
+    background-size: 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 0 0 55px black;
+}
+
+.red {
+    
+}
+
+.blue {
+    
+}
+
 
 .currentQuestion {
     text-align: center;
     padding-bottom: 15px;
-    background-color: black;
-    color: wheat;
+}
+
+.currentQuestion p {
+    font-size: 120px;
 }
 
 .answers {
-    background-color: black;
-    color: wheat;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    min-width: 50%;
+
 }
 
 .answer {
     display: flex;
     justify-content: space-between;
-    padding: 0 30%;
-}
-
-.points {
-    display: flex;
-    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid white;
 }
 
 .point {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     min-width: 30px;
-    height: 30px;
-    text-align: center;
+    min-height: 40px;
+    font-size: 25px;
 }
 
 .pointsCurrent {
     background-color: gray;
     color: white;
+    box-shadow: 
+        0 0 35px black,
+        inset 0 15px 25px rgba(0, 0, 0, 0.6);
+
 }
 
 .pointsRed {
     background-color: red;
     color: white;
+    box-shadow: 
+        0 0 35px black,
+        inset 0 15px 25px rgba(0, 0, 0, 0.6);
+
 }
 
 .pointsBlue {
     background-color: blue;
     color: white;
+    box-shadow: 
+        0 0 35px black,
+        inset 0 15px 25px rgba(0, 0, 0, 0.6);
+
 }
 
 .hidden {
@@ -74,32 +133,41 @@ body {
 }
 
 .playersBlock {
-    display: flex;
-    flex-direction: column;
-    max-width: 50%;
-    margin: 0 auto;
+    font-size: 25px;
 }
 
 .answerBlock {
     display: flex;
-    padding: 5px 0;
-    justify-content: flex-end;
+    justify-content: space-between;
+    padding-bottom: 25px;
+}
+
+.questionBlock {
+    padding-bottom: 10px;
 }
 
 .fastMoney {
     display: flex;
+    justify-content: space-between;
 }
 
 .answerText {
-    min-width: 100px;
+    display: inline;
+    width: 350px;
+}
+
+.normal {
+    width: auto;
 }
 
 .answerBlock input {
-    max-width: 30px;
+    display: inline;
+    width: 40px;
+    height: 30px;
     margin: 0 50px;
+    font-size: 25px;
 }
 
 .answerBlock button {
-    height: 20px;
     margin-left: 10px;
 }
