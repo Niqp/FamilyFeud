@@ -80,6 +80,7 @@ body {
 .control {
     display:flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .redColor {
@@ -152,7 +153,6 @@ body {
     box-shadow: 
         0 0 35px black,
         inset 0 15px 25px rgba(0, 0, 0, 0.6);
-
 }
 
 .hidden {
@@ -229,6 +229,9 @@ input:focus {
     background-color: royalblue;
     justify-content: space-around;
     align-items: center;
+    box-shadow: 
+        0 0 35px black,
+        inset 0 15px 25px rgba(0, 0, 0, 0.6);
 }
 
 .crosses img {
@@ -244,4 +247,9 @@ input:focus {
 .currentColor {
     height: 100%;
     background-color: white;
+    color: white;
+    font-size: 25px;
+    box-shadow: 
+        0 0 35px black,
+        inset 0 15px 25px rgba(0, 0, 0, 0.6);
 }
