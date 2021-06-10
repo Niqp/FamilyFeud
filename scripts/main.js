@@ -55,7 +55,6 @@ const feudMachine = (questions) => {
   };
 
   const getNormalQuestion = () => {
-    NEXT_QUESTION.textContent = "Следующий вопрос"
     let randomQuestion = getRandomQuestion();
     console.log(questionList.length);
     let questionSelected = questions.questionList[randomQuestion];
@@ -268,21 +267,21 @@ const feudMachine = (questions) => {
       pointsBlueCounter = 0;
       POINTS_BLUE.textContent = pointsBlueCounter;
       newGame = false;
+      NEXT_QUESTION.textContent = "Следующий вопрос";
     }
 
     if (normalQuestionCurrentCount<NORMAL_QUESTIONS_MAX) {
       getNormalQuestion();
       normalQuestionCurrentCount++;
+      if (normalQuestionCurrentCount===NORMAL_QUESTIONS_MAX) {
+        NEXT_QUESTION.textContent = "Начать Fast Money";
+      }
       console.log(normalQuestionCurrentCount);
       return;
     }
 
     if (normalQuestionCurrentCount = NORMAL_QUESTIONS_MAX) {
       getFastMoneyQuestion();
-    }
-
-    if (questionList.length === 0) {
-      NEXT_QUESTION.classList.add("hidden");
     }
   });
 
