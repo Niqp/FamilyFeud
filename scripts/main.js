@@ -301,7 +301,7 @@ const feudMachine = (questions) => {
   });
 };
 
-fetch('../data/data.json').then((response) => {
+fetch(window.location.href + '/data/data.json').then((response) => {
   return response.json();
 }).then((data) => {
   let questions = data;
