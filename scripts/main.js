@@ -153,6 +153,22 @@ const feudMachine = (questions) => {
           const clonedTemplate = FAST_MONEY_ANSWERS_TEMPLATE.cloneNode(true);
           const answer = clonedTemplate.querySelector('.answerText');
           answer.textContent = playerAnswers[index][currentIndex];
+          if (chosenTeam===1) {
+            if (index===0) {
+              answer.classList.add('redColor');
+            }
+            if (index===1) {
+              answer.classList.add('blueColor');
+            }
+          }
+          if (chosenTeam===2) {
+            if (index===0) {
+              answer.classList.add('blueColor');
+            }
+            if (index===1) {
+              answer.classList.add('redColor');
+            }
+          }
           answerBlock.appendChild(clonedTemplate);
         });
         const revealButton = document.createElement("button");
@@ -215,7 +231,7 @@ const feudMachine = (questions) => {
       FAST_MONEY_NEXT.removeEventListener('click', nextPlayer);
       FAST_MONEY_NEXT.addEventListener('click', fastMoneyNext);
     }
-    
+
     FAST_MONEY_NEXT.addEventListener('click', fastMoneyNext);
   }; 
 
@@ -285,7 +301,7 @@ const feudMachine = (questions) => {
   });
 };
 
-fetch('data/data.json').then((response) => {
+fetch('../data/data.json').then((response) => {
   return response.json();
 }).then((data) => {
   let questions = data;

@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+  
+    src: local("Roboto"),
+         url("../fonts/Roboto.woff") format("woff");
+}
+
 html {
 
 }
@@ -9,9 +18,15 @@ html {
 p {
     margin: 0;
 }
+
+button {
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
 body {
     background-image: url("../img/pattern1.png");
     background-size: 15px;
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
 .gameField {
@@ -23,11 +38,14 @@ body {
     justify-content: center;
     min-height: 80vh;
     background-color: black;
+    background-image: url(../img/pattern3.png);
+    background-size: 155px;
     color: wheat;
     font-size: 35px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     padding-bottom: 15px;
+    box-shadow: inset 0 0 15px rgba(143, 143, 143, 0.5);
 }
 
 .questionBox button {
@@ -53,12 +71,12 @@ body {
     box-shadow: 0 0 55px black;
 }
 
-.red {
-    
+.redColor {
+    color: red;
 }
 
-.blue {
-    
+.blueColor {
+    color: blue;
 }
 
 
@@ -127,11 +145,6 @@ body {
     display: none;
 }
 
-.buttons {
-    display: flex;
-    justify-content: space-around;
-}
-
 .playersBlock {
     font-size: 25px;
 }
@@ -162,10 +175,14 @@ body {
 
 .answerBlock input {
     display: inline;
-    width: 40px;
+    text-align: center;
+    width: 35px;
     height: 30px;
     margin: 0 50px;
     font-size: 25px;
+    border-radius: 5px;
+    box-shadow:inset 0 0 5px rgba(100, 100, 100, 0.6);
+    border: 0;
 }
 
 .answerBlock button {
