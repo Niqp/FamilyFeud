@@ -25,12 +25,12 @@ const feudMachine = (questions) => {
   ).content;
   const ANSWERS = document.querySelector(".answers");
 
-  const NORMAL_QUESTIONS_MAX = 5;
+  const NORMAL_QUESTIONS_MAX = 3;
   const FAST_MONEY_MAX = 5;
   const FAST_MONEY_PLAYERS = 2;
-  const FAST_MONEY_TIMER = 30; //in seconds
+  const FAST_MONEY_TIMER = 15; //in seconds
   const REGULAR_TIMER = 30;
-  const QUESTIONS_PER_GAME = 10;
+  const QUESTIONS_PER_GAME = 8;
   const TIME_PER_LETTER = 100; //in ms
   const POINTS_CURRENT = document.querySelector(".pointsCurrent");
   const POINTS_RED = document.querySelector(".pointsRed");
@@ -54,8 +54,11 @@ const feudMachine = (questions) => {
   let crossDefaultCount = 3;
   let chosenTeam = 0;
   let answerInput = 0;
+  let timer = 0;
   let timerId = 0;
   let isPlayerChosen = 0;
+  let fastMoneyRedScore = 0;
+  let fastMoneyBlueScore = 0;
 
   let normalQuestionCurrentCount = 0;
   let fastMoneyCurrentCount = 0;
@@ -78,7 +81,7 @@ const feudMachine = (questions) => {
           container.append(char);
           index++;
           }
-        setTimeout(printLetter, TIME_PER_LETTER);
+        timer = setTimeout(printLetter, TIME_PER_LETTER);
       }
     };
     printLetter();
@@ -105,8 +108,12 @@ const feudMachine = (questions) => {
       answerButton.addEventListener("click", function () {
         answerText.textContent = questionSelected.Answers[index].Answer;
         answerPoints.textContent = questionSelected.Answers[index].Points;
-
-        pointsCurrentCounter += Number(questionSelected.Answers[index].Points);
+        if (normalQuestionCurrentCount<=1) {
+          pointsCurrentCounter += Number(questionSelected.Answers[index].Points);
+        }
+        if (normalQuestionCurrentCount>1) {
+          pointsCurrentCounter += Number(questionSelected.Answers[index].Points)*2;
+        }
         POINTS_CURRENT.textContent = pointsCurrentCounter;
 
         answerButton.classList.add("hidden");
@@ -215,15 +222,19 @@ const feudMachine = (questions) => {
             value.type = "text";
           });
           if (chosenTeam === 1) {
-            pointsRedCounter += parseInt(answers[0].value);
+            fastMoneyRedScore += (parseInt(answers[0].value))*3;
+            pointsRedCounter += fastMoneyRedScore;
             POINTS_RED.textContent = pointsRedCounter;
-            pointsBlueCounter += parseInt(answers[1].value);
+            fastMoneyBlueScore += (parseInt(answers[1].value))*3;
+            pointsBlueCounter += fastMoneyBlueScore;
             POINTS_BLUE.textContent = pointsBlueCounter;
           }
           if (chosenTeam === 2) {
-            pointsRedCounter += parseInt(answers[1].value);
+            fastMoneyRedScore += (parseInt(answers[1].value))*3;
+            pointsRedCounter += fastMoneyRedScore;
             POINTS_RED.textContent = pointsRedCounter;
-            pointsBlueCounter += parseInt(answers[0].value);
+            fastMoneyBlueScore += (parseInt(answers[2].value))*3;
+            pointsBlueCounter += fastMoneyBlueScore;
             POINTS_BLUE.textContent = pointsBlueCounter;
           }
         });
@@ -304,6 +315,7 @@ const feudMachine = (questions) => {
     }
 
     if (normalQuestionCurrentCount < NORMAL_QUESTIONS_MAX) {
+      clearTimeout(timer);
       getNormalQuestion();
       normalQuestionCurrentCount++;
       if (normalQuestionCurrentCount === NORMAL_QUESTIONS_MAX) {
@@ -314,6 +326,7 @@ const feudMachine = (questions) => {
     }
 
     if ((normalQuestionCurrentCount = NORMAL_QUESTIONS_MAX)) {
+      clearTimeout(timer);
       getFastMoneyQuestion();
     }
   });
