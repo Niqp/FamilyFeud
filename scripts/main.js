@@ -316,6 +316,7 @@ const feudMachine = (questions) => {
 
     if (normalQuestionCurrentCount < NORMAL_QUESTIONS_MAX) {
       clearTimeout(timer);
+      NEXT_QUESTION.blur();
       getNormalQuestion();
       normalQuestionCurrentCount++;
       if (normalQuestionCurrentCount === NORMAL_QUESTIONS_MAX) {
@@ -345,7 +346,7 @@ const feudMachine = (questions) => {
     POINTS_CURRENT.textContent = pointsCurrentCounter;
   });
 
-  REMOVE_CROSS.addEventListener("click", () => {
+  const crossRemover = () => {
     crossDefaultCount--;
     WRONG_SOUND.play();
     if (answerInput) {
@@ -353,6 +354,14 @@ const feudMachine = (questions) => {
     }
     if (crossDefaultCount >= 0) {
       CROSSES[crossDefaultCount].style.opacity = 1;
+    }
+  };
+
+  REMOVE_CROSS.addEventListener("click", crossRemover);
+
+  document.addEventListener('keydown', (evt) => {
+    if (evt.code === "Space") {
+      crossRemover();
     }
   });
 
