@@ -228,14 +228,18 @@ const feudMachine = (questions) => {
             fastMoneyBlueScore += (parseInt(answers[1].value))*3;
             pointsBlueCounter += fastMoneyBlueScore;
             POINTS_BLUE.textContent = pointsBlueCounter;
+            fastMoneyRedScore = 0;
+            fastMoneyBlueScore = 0;
           }
           if (chosenTeam === 2) {
             fastMoneyRedScore += (parseInt(answers[1].value))*3;
             pointsRedCounter += fastMoneyRedScore;
             POINTS_RED.textContent = pointsRedCounter;
-            fastMoneyBlueScore += (parseInt(answers[2].value))*3;
+            fastMoneyBlueScore += (parseInt(answers[0].value))*3;
             pointsBlueCounter += fastMoneyBlueScore;
             POINTS_BLUE.textContent = pointsBlueCounter;
+            fastMoneyRedScore = 0;
+            fastMoneyBlueScore = 0;
           }
         });
         answerBlock.append(revealButton);
@@ -390,7 +394,7 @@ const feudMachine = (questions) => {
       timerId = setInterval(() => {
         currentTimer--;
         CURRENT_TEAM_COLOR.textContent = currentTimer;
-        if (currentTimer === 0) {
+        if (currentTimer <= 0) {
           clearInterval(timerId);
           WRONG_SOUND.play();
           stopTimer();

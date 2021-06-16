@@ -11,8 +11,10 @@
          url("../fonts/Roboto.woff") format("woff");
 }
 
-html {
-
+body {
+    background-image: url("../img/pattern1.png");
+    background-size: 15px;
+    font-family: "Roboto", "Arial", sans-serif;
 }
 
 p {
@@ -21,15 +23,6 @@ p {
 
 button {
     font-family: "Roboto", "Arial", sans-serif;
-}
-
-body {
-    background-image: url("../img/pattern1.png");
-    background-size: 15px;
-    font-family: "Roboto", "Arial", sans-serif;
-}
-
-.gameField {
 }
 
 .questionBox {
