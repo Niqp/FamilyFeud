@@ -28,7 +28,7 @@ const feudMachine = (questions) => {
   const NORMAL_QUESTIONS_MAX = 3;
   const FAST_MONEY_MAX = 5;
   const FAST_MONEY_PLAYERS = 2;
-  const FAST_MONEY_TIMER = 15; //in seconds
+  const FAST_MONEY_TIMER = 20; //in seconds
   const REGULAR_TIMER = 30;
   const QUESTIONS_PER_GAME = 8;
   const TIME_PER_LETTER = 100; //in ms
@@ -161,7 +161,7 @@ const feudMachine = (questions) => {
       timerId = setInterval(() => {
         currentTimer--;
         timer.textContent = currentTimer;
-        if (currentTimer === 0) {
+        if (currentTimer <= 0) {
           fastMoneyNext();
         }
       }, 1000);
